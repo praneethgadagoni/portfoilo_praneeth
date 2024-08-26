@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(18, 1, 1);
+}
+div ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+div ul li {
+    margin: 0px 50px;
+    font-style:italic;
+    font-size: 25px;
+   
+}
+
+div ul li a {
+    color: #cedae1;
+    text-decoration: none;
+}
+#intro{
+    grid-template-columns: 1fr 1fr ;
+    color: aliceblue;
+   
+}
+.image>img{
+    height: 150px;
+    margin-left: 1100px;
+    margin-top: -130px;
+  }
+  
+  section h2{
+    margin-left: 600px;
+    font-size: 30px;
+  }
+
+  #skills li {
+    padding: 10px;
+    border: 0px solid #ddd;
+    border-radius: 40px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#skills li:hover {
+    background-color: #007bff; 
+    color: white; 
+    cursor: pointer; 
+}
+
+.project {
+    background:rgb(13, 13, 13);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: solid;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.project>h3{
+    font-style: oblique;
+}
+.project>h2{
+   text-decoration: dashed;
+   color: white;
+}
+
+
+footer {
+    background: #0a0808;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+   
+    bottom: 0;
+    width: 100%;
+}
+
+.contact label {
+   
+    font-size: 40px;
+   
+}
+
+.contact-details{
+    
+    text-align: center;
+    /* padding-top: 0px;
+    margin-bottom: 5px; */
+}
+.but{
+    cursor: pointer;
+}
+
+nav p{
+    text-align: center;
+}
